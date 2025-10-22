@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { MapContainer, TileLayer, Marker } from 'react-leaflet';
-// Work around TS types by importing types explicitly
 import type { LatLngExpression } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { api } from '../lib/api';
